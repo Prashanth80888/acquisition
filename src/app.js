@@ -1,13 +1,9 @@
 import express from 'express';
 
-const  app=express();
+const app = express();
 
-
-app.get('/',(req,res)=>{
-    res.status(200).json({message:"Welcome to the acquisition API"});
-})
-
+app.get('/', (req, res) => {
+  res.status(200).json({ message: 'Welcome to the acquisition API' });
+});
 
 export default app;
-
-
