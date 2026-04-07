@@ -1,0 +1,26 @@
+{
+  "name": "acquisition",
+  "version": "1.0.0",
+  "description": "Node.js backend project for acquisition system",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "nodejs",
+    "backend",
+    "project"
+  ],
+  "author": "Prashanth",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prashanth80888/acquisition.git"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1"
+  }
+}
